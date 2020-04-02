@@ -57,7 +57,7 @@ int main(int argc, char** argv)
     //Ciclo principal
     while(ros::ok())
     {
-        //Publicar mensajes
+        //Publicar mensajes holasoykaren
         int_pub.publish(int_msg);
         str_pub.publish(str_msg);
         bol_pub.publish(bol_msg);
